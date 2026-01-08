@@ -7,7 +7,7 @@ const bookObj = {
 const bookJSON = JSON.stringify(bookObj);
 
 console.log(bookJSON); 
-console.log(typeof bookJSON); // "string"
+console.log(typeof bookJSON); 
 
 
 const receivedBookObj = JSON.parse(bookJSON);
